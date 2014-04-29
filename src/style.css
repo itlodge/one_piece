@@ -1,0 +1,27 @@
+
+body {
+
+}
+
+#volums {
+    margin-top: 10px;
+    height: 50px;
+    overflow: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#volums li {
+    display: inline;
+    list-style: none;
+    padding: 10px;
+}
+
+#view {
+    width: 100%;
+    text-align: center;
+}
+
+#view img {
+    max-width: 100%;
+}

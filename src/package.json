@@ -1,0 +1,26 @@
+{
+  "name": "one_piece",
+  "version": "0.0.1",
+  "description": "App to view commic of One piece",
+  "main": "index.html",
+  "window": {
+    "title": "One piece",
+    "toolbar": false
+  },
+  "webkit": {
+    "plugin": true,
+    "page-cache": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/itlodge/one_piece"
+  },
+  "dependencies": {
+    "cheerio": "0.15.0",
+    "request": "2.34.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-node-webkit-builder": "^0.1.19"
+  }
+}
